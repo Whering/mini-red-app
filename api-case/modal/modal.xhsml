@@ -1,0 +1,58 @@
+<view class="container">
+  <showbox title="基础使用">
+    <box>
+      <view class="_ui-space">
+        <view>
+          <view class="model-title">
+            <text>带标题的双操作弹窗</text>
+            <text>点击下方按钮触发</text>
+          </view>
+          <button class="_ui-button" hover-class="_ui-button-hover" bindtap="modalTap">触发</button>
+        </view>
+        <view>
+          <view class="model-title">
+            <text>带标题的单操作弹窗</text>
+            <text>点击下方按钮触发</text>
+          </view>
+          <button class="_ui-button" hover-class="_ui-button-hover" bindtap="modalTap1">触发</button>
+          <!-- <button class="_ui-button" hover-class="_ui-button-hover" bindtap="noTitlemodalTap">无标题</button> -->
+        </view>
+
+        <view>
+          <view class="model-title">
+            <text>无标题的单操作弹窗</text>
+            <text>点击下方按钮触发</text>
+          </view>
+          <button class="_ui-button" hover-class="_ui-button-hover" bindtap="noTitlemodalTap">触发</button>
+        </view>
+      </view>
+    </box>
+  </showbox>
+  <showbox title="输入型弹窗">
+    <box>
+      <view class="setting-title">
+        点击下方按钮触发
+      </view>
+      <button class="_ui-button" hover-class="_ui-button-hover" bindtap="modalTap6">触发</button>
+    </box>
+  </showbox>
+
+  <!-- <showbox title="其他使用">
+    <box>
+      <view class="btn-area">
+        <view class="_ui-input">
+          <input type="text" placeholder="输入标题" bindinput="handleTitleInput" />
+        </view>
+        <view class="_ui-input">
+          <input type="text" placeholder="输入内容" bindinput="handleContentInput" />
+        </view>
+        <view class="_ui-input">
+          <input type="text" placeholder="输入取消按钮文字" bindinput="handleCancelTextInput" />
+         </view>
+       
+        <button class="_ui-button" hover-class="_ui-button-hover" bindtap="modalTap4">确认按钮文字</button>
+        <button class="_ui-button" hover-class="_ui-button-hover" bindtap="modalTap7">显示输入框提示文字</button>
+      </view>
+    </box>
+  </showbox> -->
+</view>

@@ -1,0 +1,19 @@
+<view class="guide-container">
+  <!--  -->
+  <view class="list">
+    <view class="part" xhs:for="{{[1, 2]}}" xhs:for-index="idx">
+      <view xhs:for="{{goodsList}}" class="goods-item" xhs:for-item="goods"  xhs:if="{{index % 2 === idx}}" bindtap="onGoodsCardClick" data-value="{{goods}}">
+        <image class="img" src="{{goods.picUrl}}" mode="widthFix" />
+        <view class="name">{{goods.goodsName}}</view>
+        <view class="tags">
+          <view class="tag" xhs:for="{{goods.tags}}">{{item}}</view>
+        </view>
+        <view class="price">
+          ¥
+          <text class="price-int">1000</text>
+          .00
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

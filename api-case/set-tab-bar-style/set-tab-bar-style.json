@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "设置TabBarStyle",
+  "usingComponents": {
+      "showbox": "../../common/component/showbox/index",
+      "box": "../../common/component/container/index"
+  }
+}

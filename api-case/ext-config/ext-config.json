@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "第三方平台",
+  "usingComponents": {
+      "showbox": "../../common/component/showbox/index",
+      "box": "../../common/component/container/index"
+  }
+}

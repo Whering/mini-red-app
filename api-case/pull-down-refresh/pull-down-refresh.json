@@ -1,0 +1,9 @@
+{
+    "navigationBarTitleText": "下拉刷新",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark",
+    "usingComponents": {
+        "showbox": "../../common/component/showbox/index",
+        "box": "../../common/component/container/index"
+    }
+}

@@ -1,0 +1,16 @@
+<!-- <import src="../common/head.xhsml" />
+<import src="../common/foot.xhsml" />
+<import src="../common/status.xhsml" /> -->
+<view class="container">
+  <!-- <template is="head" data="{{title: 'getEnterOptionsSync/getLaunchOptionsSync'}}" />
+  <template is="status" data="{{apiData}}" /> -->
+  <showbox title="默认">
+    <box>
+      <view>
+        <button bindtap="getEnterOptionsSync" type="primary">getEnterOptionsSync</button>
+        <button bindtap="getLaunchOptionsSync" type="primary">getLaunchOptionsSync</button>
+      </view>
+    </box>
+  </showbox>
+  <!-- <template is="foot" /> -->
+</view>

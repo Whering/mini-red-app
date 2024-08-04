@@ -1,0 +1,25 @@
+{
+  "condition": {
+    "miniprogram": {
+      "current": 1722780207984,
+      "list": [
+        {
+          "id": 1722756603046,
+          "name": "HOME",
+          "pathName": "entry/guide/guide",
+          "query": "",
+          "launchMode": "default",
+          "scene": 0
+        },
+        {
+          "id": 1722780207984,
+          "name": "detail",
+          "pathName": "entry/detail/detail",
+          "query": "",
+          "launchMode": "default",
+          "scene": 0
+        }
+      ]
+    }
+  }
+}

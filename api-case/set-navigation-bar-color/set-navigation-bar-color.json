@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "设置导航栏颜色",
+    "usingComponents": {
+        "showbox": "../../common/component/showbox/index",
+        "box": "../../common/component/container/index"
+    }
+}

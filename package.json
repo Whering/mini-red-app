@@ -1,0 +1,13 @@
+{
+  "name": "xhs-example",
+  "version": "1.0.1",
+  "description": "小红书小程序官方演示案例",
+  "main": "app.js",
+  "keywords": [],
+  "author": "tailiang",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

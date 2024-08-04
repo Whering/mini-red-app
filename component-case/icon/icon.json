@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "图标",
+    "usingComponents": {
+        "showbox": "../../common/component/showbox/index"
+    }
+}

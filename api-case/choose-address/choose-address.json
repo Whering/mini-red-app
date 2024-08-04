@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "收货地址",
+  "usingComponents": {
+      "showbox": "../../common/component/showbox/index",
+      "box": "../../common/component/container/index"
+  }
+}

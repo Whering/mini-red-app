@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "消息提示框",
+    "usingComponents": {
+        "showbox": "../../common/component/showbox/index",
+        "box": "../../common/component/container/index"
+    }
+}

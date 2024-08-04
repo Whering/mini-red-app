@@ -1,0 +1,16 @@
+<!-- <import src="../common/head.xhsml" />
+<import src="../common/foot.xhsml" />
+<import src="../common/status.xhsml" /> -->
+<view class="container">
+  <!-- <template is="head" data="{{title: 'hideHomeButton'}}" />
+  <template is="status" data="{{apiData}}" /> -->
+  
+  <showbox title="默认">
+    <box>
+      <view class="page-body">
+        <button bindtap="hideHomeButton">hideHomeButton</button>
+      </view>
+    </box>
+  </showbox>
+  <!-- <template is="foot" /> -->
+</view>

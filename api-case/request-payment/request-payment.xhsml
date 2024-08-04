@@ -1,0 +1,33 @@
+<view class="container">
+  <showbox title="支付演示">
+    <box>
+      <view>
+        <button class="_ui-button" hover-class="_ui-button-hover" bindtap="handlePayment" >支付 0.1元</button>
+      </view>
+    </box>
+  </showbox>
+  <!-- <view>
+    <label>payToken</label>
+    <input class="input" type="text" value="{{payToken}}" bindinput="handlePayToken" />
+  </view>
+  <view>
+    <label>orderId</label>
+    <input class="input" type="text" value="{{orderId}}" bindinput="handleOrderId" />
+  </view>
+  <view>
+    <label>payMethod</label>
+    <input class="input" type="text" value="{{payMethod}}" bindinput="handlePayMethod" />
+  </view>
+  <view>
+    <label>ext</label>
+    <input class="input" type="text" value="{{ext}}" bindinput="handleExt" />
+  </view>
+  <view>
+    <label>wxUrl</label>
+    <input class="input" type="text" value="{{wxUrl}}" bindinput="handleWxUrl" />
+  </view>
+  <view>
+    <label>zfbUrl</label>
+    <input class="input" type="text" value="{{zfbUrl}}" bindinput="handleZfbUrl" />
+  </view> -->
+</view>
