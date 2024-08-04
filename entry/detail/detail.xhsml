@@ -1,3 +1,22 @@
 <view class="goods-detail">
-  2
+  <!-- 图片介绍 -->
+  <view class="detail-img" style="background-image: url({{goods.picUrl}})" />
+  <view class="detail-card">
+    <!-- 商品名字 -->
+    <view class="detail-name">{{goods.goodsName}}</view>
+    <view class="price">
+      ¥
+      <text class="price-int">1000</text>
+      .00
+    </view>
+  </view>
+  <view class="detail-card2">
+    <view class="title">图文详情</view>
+    <view class="content">这里是图文介绍里的文本内容</view>
+    <image class="img" src="{{goods.picUrl}}" mode="widthFix" />
+  </view>
+  <view class="bottom"></view>
+  <view class="footer">
+    <button class="button" hover-class="button-hover">联系客服</button>
+  </view>
 </view>
